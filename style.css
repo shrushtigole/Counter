@@ -1,0 +1,31 @@
+body{
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(230, 178, 243);
+}
+#counter{
+   height: 250px;
+   width: 700px;
+   margin: 200px auto;
+   text-align: center;
+   border: 10px inset #fff;
+   background-color: rgb(218, 110, 245);
+   padding-top: 20px;
+}
+#numberCounter{
+    font-size: 80px;
+}
+.button{
+    font-size: 30px;
+    background-color: rgb(245, 174, 112);
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 150px;
+    margin: 20px 10px;
+}
+.button:hover{
+    background-color: rgb(240, 132, 38);
+}
