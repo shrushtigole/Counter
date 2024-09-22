@@ -2,20 +2,43 @@ body{
     padding: 0px;
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
-    background-color: rgb(230, 178, 243);
+    background-color: #dbbb91;
 }
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+
 #counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Wrapper of buttons */
+.wrapper{
    height: 250px;
    width: 700px;
-   margin: 200px auto;
+   margin: auto;
    text-align: center;
-   border: 10px inset #fff;
-   background-color: rgb(218, 110, 245);
+   background-color: #ebd5b9;;
    padding-top: 20px;
+   border-radius: 16px;
+   box-shadow: 0px 4px 20px 0px;
 }
+
+
+/* Number which is display in screen */
 #numberCounter{
     font-size: 80px;
 }
+
+
+/* Buttons (increment, decrement, reset) */
 .button{
     font-size: 30px;
     background-color: rgb(245, 174, 112);

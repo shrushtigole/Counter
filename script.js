@@ -1,20 +1,22 @@
-var incrementbtn= document.getElementById("increase");
-var decrementbtn= document.getElementById("decrease");
-var resetbtn= document.getElementById("reset");
+var incrementButton= document.getElementById("increase");
+var decrementButton= document.getElementById("decrease");
+var resetButton= document.getElementById("reset");
 var number= document.getElementById("numberCounter")
 let count=0;
 
-incrementbtn.onclick= function(){
+incrementButton.onclick= function(){
     count++;
     number.textContent =count;
 }
 
-resetbtn.onclick= function(){
+resetButton.onclick= function(){
     count=0;
     number.textContent =count;
 }
 
-decrementbtn.onclick= function(){
-    count--;
+decrementButton.onclick= function(){
+    if(count>0){
+        count--;
     number.textContent =count;
-},console.log(incrementbtn)
+    } 
+}
